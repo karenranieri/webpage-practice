@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
+html {
+  box-sizing: border-box;
+}
+body{
+background-color:#BAE2CA;
+}
+ 
+}
+p{
+ font-family: 'Pangolin', cursive;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color:#BAE2CA;
+    color:#691F40;
+    font-family: 'Pangolin', cursive;
+ 
+}
+
+main {
+  min-height: 400px;
+  background-color: #fff;
+    
+}
+p{
+    color:#691F40;
+    font-family: 'Pangolin', cursive;
+}
+
+footer {
+  height: 150px;
+  background-color:#BAE2CA;
+}
+
+
+* {
+   box-sizing: border-box;
+}
+.hero {
+    background-image: url('http://i.imgur.com/8bQzw72.jpg');
+        margin:0 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    
+    
+}
+
+.hero h1{
+    color:#691F40;
+    text-align:center;
+    padding-top: 200px;
+    xbackground-color: RGBA (255,255,255,.5);
+    font-family:'Pangolin', cursive;
+    text-shadow: 0 0 10px #F8F9FB;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 980px;
+  margin: auto;
+}
+
+.container-fluid {
+  width: 100%;
+  min-width: 760px; /* Adjust as needed */
+}
+
+/* -------- =Column Layout -------*/
+
+.col-1  {  width: 8.33333333%;   }
+.col-2  {  width: 16.66666667%;  }
+.col-3  {  width: 25%;           }
+.col-4  {  width: 33.33333333%;  }
+.col-5  {  width: 41.66666667%;  }
+.col-6  {  width: 50%;           }
+.col-7  {  width: 54.33%;        }
+.col-8  {  width: 66.66666667%;  }
+.col-9  {  width: 75%;           } 
+.col-10 {  width: 83.33333333%;  }
+.col-11 {  width: 91.66666667%;  }
+.col-12 {  width: 100%;          }
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.container:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/* ----- =logo ----- */
+
+header h1 {
+  float: left;
+  font-family:'Pangolin, cursive;
+  font-size: 40px;
+  margin: 30px 0 10px 0;
+
+}
+
+header h1 a {
+  color:#691F40;
+  text-decoration: none;
+
+}
+
+header h1 a:hover {
+  color::#691F40;
+}
+
+
+/* ----- =navigation ----- */
+
+header nav {
+  float: right;
+  margin-top: 52px;
+}
+
+header nav a {
+  font-family: 'Pangolin, cursive;
+  font-size: 18px;
+  color: #424254;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color:#691F40 ;
+}/* CSS Styles are placed in this file */
