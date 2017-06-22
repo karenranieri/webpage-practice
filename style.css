@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Pangolin');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+</style>
 html {
   box-sizing: border-box;
 }
@@ -25,7 +27,7 @@ header {
 
 main {
   min-height: 400px;
-  background-color: #fff;
+  xbackground-color: #fff;
     
 }
 p{
@@ -57,7 +59,7 @@ footer {
     text-align:center;
     padding-top: 200px;
     xbackground-color: RGBA (255,255,255,.5);
-    font-family:'Pangolin', cursive;
+    font-family:"Lobster";
     text-shadow: 0 0 10px #F8F9FB;
 }
 
